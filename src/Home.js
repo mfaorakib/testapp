@@ -66,7 +66,7 @@ export default function Home() {
             </View>
             <View style={{ flex: 4}}>
             <Text style={{color:'#B7B7B9',fontSize:'18px',fontFamily:'SourceSansPro_600SemiBold'}}>How much can you start wit..</Text>
-                 <Text style={{color:'#B7B7B9',fontSize:'184x',fontFamily:'SourceSansPro_600SemiBold'}}> <Image style={styles.tiny} source={{uri: 'https://i.imgur.com/kSlbM2y.png',}}></Image>
+                 <Text style={{color:'#B7B7B9',fontSize:'14x',fontFamily:'SourceSansPro_600SemiBold'}}> <Image style={styles.tiny} source={{uri: 'https://i.imgur.com/kSlbM2y.png',}}></Image>
                  What do you like to see? It’s a very different market from 2018. The way...</Text>
             </View>
             </View>
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
         justifyContent:'space-between'
     },
     tiny:{
-     alignItems:'flex-end',
+     float:'right', 
      width: 61,
      height: 61
     }
